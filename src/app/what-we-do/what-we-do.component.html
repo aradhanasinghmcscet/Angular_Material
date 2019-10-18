@@ -1,0 +1,62 @@
+<div class="containerX" style="flex-direction: row; box-sizing: border-box; display: flex;padding:8%;">
+  <div class="coloredContainerX box" fxflex="" fxlayout="row" fxlayout.sm="column" fxlayout.xs="column"
+    style="flex-direction: row; box-sizing: border-box; display: flex; flex: 1 1 0%;z-index:1;">
+    <div fxflex="" style="flex: 1 1 0%; box-sizing: border-box; padding:0 8%;">
+      <h1>
+        What We Do
+      </h1>
+      <p class="textP">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+        facilisis.
+      </p>
+    </div>
+    <div fxflex="" style="flex: 1 1 0%; align-items:center;align-content:center;box-sizing: border-box;">
+      <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <section class="btn-container Aligner-item">
+          <button mat-button mat-raised-button class="primary-btn">Read More</button>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="containerX wavebox2">
+<div class="containerX whatWeDo" style="flex-direction: row; box-sizing: border-box; display: flex;padding:0 8%;">
+  <div class="coloredContainerX box" fxflex="" fxlayout="row" fxlayout.sm="column" fxlayout.xs="column"
+    style="flex-direction: row; box-sizing: border-box; display: flex; flex: 1 1 0%;z-index:1;">
+   
+  <mat-tab-group>
+      <mat-tab> 
+        <ng-template mat-tab-label>
+           <div><img src="../../assets/images/icon1.png" alt="ar/vr"/></div><br>
+          <div>AR/VR</div>
+      </ng-template>        
+        <tab-arvr></tab-arvr>
+      </mat-tab>
+      <mat-tab> 
+          <ng-template mat-tab-label>
+              <div><img src="../../assets/images/icon2.png" alt="Design"/></div><br>
+            <div>Design</div>
+        </ng-template> 
+        <tab-design></tab-design>
+      </mat-tab>
+      <mat-tab>
+          <ng-template mat-tab-label>
+              <div><img src="../../assets/images/icon3.png" alt="Design"/></div><br>
+            <div>Game Design </div>
+        </ng-template>
+        <tab-game></tab-game>
+      </mat-tab>
+      <mat-tab>
+          <ng-template mat-tab-label>
+            <div><img src="../../assets/images/icon4.png" alt="Videos"/></div><br>
+            <div>Video Content</div>
+        </ng-template>
+        <tab-video></tab-video>
+      </mat-tab>
+      <div id="overlayTab" class="overlay">helloo</div>
+    </mat-tab-group>
+</div>
+   
+  </div>
+</div>
